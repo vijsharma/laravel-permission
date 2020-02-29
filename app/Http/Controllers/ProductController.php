@@ -38,6 +38,8 @@ class ProductController extends Controller
      */
     public function store(Request $request)
     {
+        $request->file('photo')->store('images');
+
         $request->validate([
             'name' => 'required',
             'detail' => 'required',
