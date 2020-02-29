@@ -144,5 +144,6 @@
     @yield('content')
   </div>
   </body>
+  
   <script type="text/Javascript" src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
 </html>
